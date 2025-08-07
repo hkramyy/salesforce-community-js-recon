@@ -1,29 +1,50 @@
 # Salesforce Community JS Recon
 
-This tool extracts JavaScript-based routes, API endpoints, tokens, and other useful reconnaissance data from the latest **Published** JS file in a Salesforce Community page.
+**A lightweight CLI tool to extract routes and sensitive patterns from Salesforce Experience Cloud JavaScript files.**
 
-## 💡 Features
+This utility is built for security testers, Salesforce admins, and developers to identify key application routes, internal references, and sensitive exposure in public-facing JS assets of Salesforce communities.
 
-- Automatically identifies the JS file from the page.
-- Extracts:
-  - Routes
-  - Full URLs
-  - API endpoints
-  - Access tokens / bearer values
-  - Secrets / keys
-  - Custom objects (`__c`)
+---
 
-## 🔧 Prerequisites
+## 🚀 Features
 
-Python 3.7+
+- ✅ Automatically extracts community routes from embedded JSON inside JS files.
+- ✅ Detects potential sensitive information like:
+  - API names
+  - Object relationships
+  - Case and content document structures
+- ✅ Supports pretty and color-coded terminal output for better visibility.
+- ✅ Outputs community route patterns useful for bug bounty or pentesting investigations.
 
-Install required libraries:
+---
+
+## 🛠️ Prerequisites
+
+Make sure you have the following installed:
+
+- Python 3.8+
+- pip
+
+📦 Installation
+
+Clone the repository:
 
 ```bash
+git clone https://github.com/hkramyy/salesforce-community-js-recon.git
+cd salesforce-community-js-recon
+```
+Install dependencies:
+```bash
 pip install -r requirements.txt
-
-🚀 Usage
-
+```
+⚙️ Usage
+```bash
 python sf_community_js_recon.py https://your-community-site.force.com/
+```
+## 🔍 Output Example
+
+Here's what the script output looks like:
+
+![Output Screenshot](output-example.png)
 
 
