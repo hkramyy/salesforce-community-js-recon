@@ -10,9 +10,9 @@ This utility is built for security testers, Salesforce admins, and developers to
 
 - ✅ Automatically extracts community routes from embedded JSON inside JS files.
 - ✅ Detects potential sensitive information like:
-  - API names
-  - Object relationships
-  - Case and content document structures
+  - API Paths
+  - Custom Objects
+  - Secrets / Keys 
 - ✅ Outputs community route patterns useful for bug bounty or pentesting investigations.
 
 ---
