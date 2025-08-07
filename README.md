@@ -13,7 +13,6 @@ This utility is built for security testers, Salesforce admins, and developers to
   - API names
   - Object relationships
   - Case and content document structures
-- ✅ Supports pretty and color-coded terminal output for better visibility.
 - ✅ Outputs community route patterns useful for bug bounty or pentesting investigations.
 
 ---
