@@ -43,6 +43,10 @@ python sf_community_js_recon.py <target_community_url>
 📌 Example
 ```bash
 python sf_community_js_recon.py https://salesforce-js-recon.my.site.com/s/
+
+or
+
+python3 sf_community_js_recon.py https://salesforce-js-recon.my.site.com/s/
 ```
 ## 🔍 Output Example
 
